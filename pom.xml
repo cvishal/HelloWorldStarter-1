@@ -44,14 +44,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<build>
 	<resources>
         <resource>
             <includes>
                 <include>Dockerfile</include>
             </includes>
         </resource>
-    </resources>	
-	<build>
+    </resources>		
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
