@@ -48,6 +48,7 @@
 	<resources>
         <resource>
         <directory>.</directory>
+        <targetPath>${project.build.directory}</targetPath>
             <includes>
                 <include>Dockerfile</include>
             </includes>
