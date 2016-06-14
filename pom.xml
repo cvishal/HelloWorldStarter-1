@@ -47,6 +47,7 @@
 	<build>
 	<resources>
         <resource>
+        <directory>.</directory>
             <includes>
                 <include>Dockerfile</include>
             </includes>
