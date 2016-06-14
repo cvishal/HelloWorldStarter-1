@@ -44,7 +44,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+	<resources>
+        <resource>
+            <includes>
+                <include>Dockerfile</include>
+            </includes>
+        </resource>
+    </resources>	
 	<build>
 		<plugins>
 			<plugin>
